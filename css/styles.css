@@ -9,9 +9,31 @@
             hsl(2deg 52% 47%) 100%);
 }
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: var(--font-body);
 }
+.container-input{
+    height: 40vh;
+    min-width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+form {
+    background: grey;
+    border-radius: 25px;
+    position: relative;
+}
+
+
 
 a {
     color: var(--color-light) !important;
