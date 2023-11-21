@@ -29,6 +29,8 @@
     font-size: 32px;
     font-weight: 300;
     color: var(--white);
+    display: flex;
+    margin: auto 0;
 }
 
 .logo {
@@ -50,7 +52,19 @@
     transform: translateY(-50%);
     pointer-events: none;
 }
+.home-acessibilidade{
+    display: flex;
+    gap: 30px;
 
+}
+
+.home-acessibilidade h2{
+    font-size: 22px;
+    font-weight: 300;
+    color: var(--white);
+    display: flex;
+    margin: auto 0;
+}
 .form-control {
     padding-right: 30px;
     border-radius: 20px;
@@ -229,6 +243,15 @@
         width: 10vw;
         background-color: var(--white);
         color: var(--main-color);
+    }
+
+    .home-acessibilidade {
+        display: flex;
+        margin-top: 10px;
+    }
+
+    .home-acessibilidade h2 {
+        font-size: 18px;
     }
 
     /* BODY */
