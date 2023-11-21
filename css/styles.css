@@ -91,6 +91,7 @@ a {
 }
 
 .logo {
+    width: 2vw;
     font-size: 2rem;
     color: var(--color-light);
 }
