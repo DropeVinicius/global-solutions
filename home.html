@@ -60,7 +60,8 @@
             <!-- hero -->
             <div class="container-input">
                 <form id="pesquisar">
-                    <input type="text" name="" placeholder="Buscar exame...">
+                    <input type="text" name="" placeholder="Buscar exame..." id="searchInput" autocomplete="off">
+                    <div id="searchSuggestions" class="search-suggestions"></div>
                     <button type="submit"><i class="bi bi-search" aria-hidden="true"></i></button>
                 </form>
             </div>
@@ -133,6 +134,7 @@
     </div>
     <!-- fim do Footer -->
 
+    <script src="js/pesquisaExames.js"></script>
 </body>
 <!-- Fim do Body -->
 
