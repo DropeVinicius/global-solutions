@@ -241,7 +241,7 @@ h2 {
   width: 100%;
   position: relative;
   height: auto;
-  background-color: var(--color-footer);
+  background-image: var(--gradient);
   padding: 60px;
 }
 
