@@ -52,10 +52,18 @@
     transform: translateY(-50%);
     pointer-events: none;
 }
+
+.nav-link {
+    color: #fff;
+    font-weight: 600;
+    font-size: 22px;
+    margin-left: 15px;
+}
+
+
 .home-acessibilidade{
     display: flex;
     gap: 30px;
-
 }
 
 .home-acessibilidade h2{
@@ -215,7 +223,7 @@
 
 @media screen and (max-width: 768px) {
     .conteiner-menu {
-        flex-direction: column;
+        flex-direction: row; 
         padding: 20px;
     }
 
