@@ -1,4 +1,5 @@
 :root {
+  --font-family: "Poppins", sans-serif;
   --font-body: "Quicksand", sans-serif;
   --color-light: #fff;
   --gradient: linear-gradient(
@@ -19,7 +20,7 @@
 }
 
 body {
-  font-family: var(--font-body);
+  font-family: "Poppins", sans-serif;
   height: 100vh;
 }
 
