@@ -38,7 +38,8 @@ body {
 .navbar-nav {
   margin-left: auto; 
   align-items: end;
-  animation-duration: 6.5s;
+  animation-duration: 5s;
+  transition: all;
 }
 
 
