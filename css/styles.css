@@ -35,6 +35,18 @@ body {
   text-align: center;
 }
 
+.navbar-nav {
+  margin-left: auto; 
+  align-items: end;
+}
+
+
+@media (max-width: 767px) {
+  .navbar-nav .nav-link {
+      font-size: 0.85rem; 
+  }
+}
+
 #pesquisar {
   margin-bottom: 50px;
 }
