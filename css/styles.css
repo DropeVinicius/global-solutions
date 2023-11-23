@@ -38,6 +38,7 @@ body {
 .navbar-nav {
   margin-left: auto; 
   align-items: end;
+  transition: transform 0.2s ease;
 }
 
 
